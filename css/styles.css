@@ -8,7 +8,7 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  color: #3A6355;
+  color: #dadfe1;
   background: #2d2b30;
 }
 
@@ -64,11 +64,22 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('../img/concert02_with_text.jpg') no-repeat top center ;
+  background: url('../img/concert02_no_text.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
   height: 350px;
+}
+
+.page-heading {
+  margin-bottom: .5em;
+  font-size: 3.25rem;
+  text-transform: uppercase;
+  color: #2d2b30;
+}
+
+.page-subheading {
+  color: #FFA319;
 }
 
 .tag {
@@ -88,18 +99,18 @@ header .name{
   font-weight: 600;
   padding: 20px;
   text-transform: uppercase;
-  color: #781125
+  color: #FFA319;
 }
 
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   text-align: left;
-  border-top: 4px solid #781125;
+  border-top: 4px solid #FFA319;
   clear: both;
 }
 .card:hover {
-  border-color: #96731A;
+  border-color: #FFCB7F;
 }
 
 
@@ -120,7 +131,7 @@ header .name{
 .heading{
   font-size: 2em;
   text-transform: uppercase;
-  color: #781125;
+  color: #FFA319;
   margin-top: 10px;
 }
 
@@ -188,6 +199,19 @@ a.social:hover {
 
   header {
     min-height: 470px;
+  }
+
+  .page-heading {
+    margin-top: 1em;
+    margin-bottom: .5em;
+    font-size: 4.25rem;
+    text-transform: uppercase;
+    color: #2d2b30;
+  }
+
+  .page-subheading {
+    font-size: 2rem;
+    color: #FFA319;
   }
 
   .nav {
