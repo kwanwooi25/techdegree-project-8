@@ -29,7 +29,7 @@
       <div class="card">
         <div class="flex">
           <img class="photo" src="img/concert01.jpg" alt="concert">
-          <form class="survey" role="survey">
+          <form class="survey">
             <fieldset>
               <legend>Who is your favorit band member:</legend>
               <input type="radio" name="res" id="radio_john">
@@ -68,26 +68,28 @@
       <div class="card">
         <div class="flex">
           <img class="photo" src= "img/the_band.jpg" alt="the band">
-          <form class="newsletter" role="signup">
+          <form class="newsletter">
             <fieldset>
               <label for="name">Name:</label>
               <input id="name" type="text" name="textfield">
             </fieldset>
             <fieldset>
               <label for="email">Email:</label>
-              <input id="email" type="email" name="textfield">
+              <input id="email" type="email" name="textfield" aria-describedby="email_hint">
+              <p id="email_hint">Your email must be valid.</p>
             </fieldset>
             <fieldset>
               <label for="email_retype">Retype Email:</label>
               <input id="email_retype" type="email" name="textfield">
             </fieldset>
-            <button type="submit">Sign Up</button>
+            <button type="submit" aria-describedby="submit_hint">Sign Up</button>
+            <p id="submit_hint">You will be subscribed to newsletter!</p>
           </form>
         </div>
       </div>
     </main>
 
-    <footer>
+    <footer role="contentinfo">
       <ul>
         <li>
           <a href="#" class="social twitter">

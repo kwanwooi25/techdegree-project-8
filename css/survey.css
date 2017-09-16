@@ -51,11 +51,19 @@ textarea:focus {
 button:hover {
   cursor: pointer;
   color: white;
-  background-color: #FFCB7F
+  background-color: #FFCB7F;
 }
 
 textarea {
   height: 5em;
+}
+
+#email_hint,
+#submit_hint {
+  margin: 0;
+  padding: 0 0 0 1em;
+  text-align: left;
+  font-size: .75rem;
 }
 
 
