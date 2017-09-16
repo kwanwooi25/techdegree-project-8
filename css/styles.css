@@ -76,12 +76,12 @@ header {
   font-size: 3.25rem;
   text-transform: uppercase;
   color: #2d2b30;
-  text-shadow: 2px 2px 5px rgba(45, 43, 48, 0.7);
+  text-shadow: 2px 2px 5px rgba(45, 43, 48, 0.5);
 }
 
 .page-subheading {
   color: #FFA319;
-  text-shadow: 2px 2px 5px rgba(255, 203, 121, .7);
+  text-shadow: 2px 2px 5px rgba(255, 203, 121, .5);
 }
 
 .tag {
@@ -114,7 +114,8 @@ header .name{
 }
 
 .card:hover {
-  box-shadow: 3px 3px 15px rgba(255, 203, 121, .7);
+  transform: translateY(-3px);
+  box-shadow: 3px 3px 15px rgba(255, 203, 121, .5);
 }
 
 
