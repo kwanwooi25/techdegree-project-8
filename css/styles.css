@@ -105,8 +105,8 @@ header .name{
 }
 
 .card {
-  margin: 30px;
-  padding: 20px 40px 40px;
+  margin: 2em;
+  padding: 1.5em;
   text-align: left;
   border-top: 4px solid #FFA319;
   transition: .5s;

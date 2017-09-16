@@ -1,35 +1,36 @@
 <!doctype html>
 <html lang="en">
   <head>
-      <meta charset="utf-8">
-      <link href="css/styles.css" rel="stylesheet" type="text/css" />
-      <link href="css/tour.css" rel="stylesheet" type="text/css" />
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
-      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
-      <title>Accessible Frog</title>
+    <meta charset="utf-8">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/tour.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <title>Accessible Frog</title>
   </head>
 
   <body>
-    <div class="main-nav">
+
+    <header role="banner">
+      <h1 class="page-heading">Accessible Frog</h1>
+      <h2 class="page-subheading">we make awesome music</h2>
+    </header>
+
+    <nav class="main-nav" role="navigation">
       <ul class="nav">
         <li class="name"><a href="index.html">Accessible Frog</a></li>
         <li><a href="#">Tour</a></li>
         <li><a href="survey.html">Survey</a></li>
       </ul>
-    </div>
+    </nav>
 
-    <header>
-      <h1 class="page-heading">Accessible Frog</h1>
-      <h2 class="page-subheading">we make awesome music</h2>
-    </header>
-
-    <main >
+    <main role="main">
       <div class="card">
         <div class="flex">
           <div class="table-header">
-            <img class="pick" src= "img/guitar_pick.png">
+            <img class="pick" src= "img/guitar_pick.png" alt="">
             <h1 class= "heading">Tour Dates</h1>
-            <img class="pick" src= "img/guitar_pick.png">
+            <img class="pick" src= "img/guitar_pick.png" alt="">
           </div>
           <table class="table">
             <thead>
