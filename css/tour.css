@@ -29,6 +29,7 @@ caption {
   text-align: left;
 }
 
+.table thead,
 .table tbody {
   width: 100%;
   display: flex;
