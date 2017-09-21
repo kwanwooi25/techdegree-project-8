@@ -18,6 +18,26 @@ fieldset {
   margin-bottom: .5em;
 }
 
+legend {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.form-heading {
+  font-weight: normal;
+  margin: 1em 0 0;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-top: .5em;
+}
+
+input + label {
+  display: inline-block;
+}
+
 select,
 input[type="text"],
 input[type="email"],
@@ -30,28 +50,29 @@ button {
   font-size: 1rem;
   border-radius: .5em;
   outline: none;
-  border: 2px solid #dadfe1;
-  background-color: #dadfe1;
+  background-color: #8C9090;
+  border: 1px solid #8C9090;
   transition: .5s;
 }
 
 button {
   height: 3em;
-  border: none;
+  color: #fff;
+  background-color: #FFA319;
+  border: 1px solid #FFA319;
 }
 
 select:focus,
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-  border: 2px solid #FFCB7F;
   background-color: white;
 }
 
 button:hover {
   cursor: pointer;
-  color: white;
-  background-color: #FFCB7F;
+  color: #FFA319;
+  background-color: #fff;
 }
 
 textarea {
@@ -59,6 +80,7 @@ textarea {
   resize: none;
 }
 
+#name_hint,
 #email_hint,
 #submit_hint {
   margin: 0;

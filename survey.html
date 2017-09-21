@@ -31,7 +31,8 @@
           <img class="photo" src="img/concert01.jpg" alt="concert">
           <form class="survey">
             <fieldset>
-              <legend>Who is your favorit band member:</legend>
+              <legend>Your Interest</legend>
+              <h4 class="form-heading">Who is your favorite band member:</h4>
               <input type="radio" name="res" id="radio_john">
               <label for="radio_john">John</label>
               <input type="radio" name="res" id="radio_hazzard">
@@ -40,9 +41,8 @@
               <label for="radio_bob">Bob</label>
               <input type="radio" name="res" id="radio_sally">
               <label for="radio_sally">Sally</label>
-            </fieldset>
-            <fieldset>
-              <label for="albums">What is your favorit album:</label>
+
+              <label for="albums">What is your favorite album:</label>
               <select id="albums" name="select">
                 <option value="1">A Day Of Old</option>
                 <option value="2">Diamond Fireworks</option>
@@ -56,8 +56,7 @@
                 <option value="10">Street Of The Rider</option>
                 <option value="11">This Is For You</option>
               </select>
-            </fieldset>
-            <fieldset>
+
               <label for="favorite_song">What is your favorite song:</label>
               <textarea id="favorite_song"></textarea>
             </fieldset>
@@ -69,19 +68,14 @@
         <div class="flex">
           <img class="photo" src= "img/the_band.jpg" alt="the band">
           <form class="newsletter">
-            <fieldset>
-              <label for="name">Name:</label>
-              <input id="name" type="text" name="textfield">
-            </fieldset>
-            <fieldset>
-              <label for="email">Email:</label>
-              <input id="email" type="email" name="textfield" aria-describedby="email_hint">
-              <p id="email_hint">Your email must be valid.</p>
-            </fieldset>
-            <fieldset>
-              <label for="email_retype">Retype Email:</label>
-              <input id="email_retype" type="email" name="textfield">
-            </fieldset>
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="textfield" aria-describedby="name_hint">
+            <p id="name_hint">Your name.</p>
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="textfield" aria-describedby="email_hint">
+            <p id="email_hint">Your email must be valid.</p>
+            <label for="email_retype">Retype Email:</label>
+            <input id="email_retype" type="email" name="textfield">
             <button type="submit" aria-describedby="submit_hint">Sign Up</button>
             <p id="submit_hint">You will be subscribed to newsletter!</p>
           </form>

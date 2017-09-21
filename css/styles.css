@@ -16,11 +16,25 @@ body {
 
 a {
   text-decoration: none;
-  color: #FFCB7F;
+  color: #fff;
+  transition: .25s;
 }
 
 a:hover {
-  color: #FFE0B7;
+  color: #FFA319;
+}
+
+.buy {
+  padding: .5em 1em;
+  color: #fff;
+  background-color: #FFA319;
+  border: 1px solid #FFA319;
+  border-radius: .5em;
+}
+
+.buy:hover {
+  color: #FFA319;
+  background-color: #fff;
 }
 
 /* Section Styles */
@@ -61,7 +75,7 @@ a:hover {
 }
 
 .nav a:hover {
-  color: white
+  color: #FFA319;
 }
 
 header {
